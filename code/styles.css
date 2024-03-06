@@ -1,0 +1,54 @@
+    body{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+    html{
+        background-image: url("bbg.jpeg");
+        background-size: cover;
+}
+    h1,h2,li{
+    font-family: 'Courier New', Courier, monospace;
+}
+    p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+    button{
+        background-color: palevioletred;
+        padding: 3;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+    }
+    .facebook {
+        position: absolute;
+        top: 20px;
+        left: 10px;
+      }
+    .GitHub{
+        position: absolute;
+        top: 140px;;
+        left: 15px;
+      }
+      .Insta{
+        position: absolute;
+        top: 80px;;
+        left: 15px;
+      }
+      .gallery {
+        display:flexbox;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        gap: 10px;
+      }
+      .gallery img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        list-style-image: cross-fade(box-shadow);
+      }
+      
